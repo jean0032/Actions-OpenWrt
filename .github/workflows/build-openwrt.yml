@@ -68,10 +68,10 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-
-    - name: Update feeds
-       run: cd openwrt && ./prepareCompile.sh
-
+        
+    - name: Prepare feeds
+      run: cd openwrt && ./prepareCompile.sh
+  
 #    - name: Install feeds
 #      run: cd openwrt && ./scripts/feeds install -a
 
