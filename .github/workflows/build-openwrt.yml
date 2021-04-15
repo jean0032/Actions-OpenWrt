@@ -70,8 +70,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
-#      run: cd openwrt && ./scripts/feeds update -a
-       run: cd openwrt && ././prepareCompile.sh
+       run: cd openwrt && ./prepareCompile.sh
 
 #    - name: Install feeds
 #      run: cd openwrt && ./scripts/feeds install -a
