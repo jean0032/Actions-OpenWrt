@@ -18,7 +18,7 @@
 
 #git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 git -b 18.06 clone https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge
-#git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos
-git clone https://github.com/project-openwrt/luci-app-koolproxyR package/lean/luci-app-koolproxyR
+git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos
+#git clone https://github.com/project-openwrt/luci-app-koolproxyR package/lean/luci-app-koolproxyR
 git clone https://github.com/destan19/OpenAppFilter package/lean/OpenAppFilter
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
