@@ -29,4 +29,4 @@ git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-th
 # git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash  #clash出国软件
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan  #微信推送
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns  #smartdns DNS加速
-# git clone https://github.com/aa65535/openwrt-chinadns.git package/chinadns
+git clone https://github.com/aa65535/openwrt-chinadns.git package/chinadns
